@@ -18,6 +18,10 @@
   color: #2c3e50;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 nav {
   padding: 10px;
   background-color: rgba(21, 21, 41, 0.555);
@@ -39,6 +43,8 @@ body {
 }
 
 footer {
-  background-color: rgb(219, 203, 203);
+  color: white;
+  background-color: rgba(21, 21, 41, 0.555);
+  position: fixed;
 }
 </style>

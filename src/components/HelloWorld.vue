@@ -27,19 +27,21 @@
     </section>
   </div>
   <section class="aboutSection">
-    <div class="about-text">
-      <h2>QUi suis-je ?</h2>
-      <h3>Un simple étudiant passionné de développement</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-        excepturi quisquam id reiciendis officiis laboriosam non! Laudantium,
-        sequi totam! Illum rerum corporis iste laborum, et ipsa placeat aperiam
-        saepe amet.
+    <div class="about-text slide-in-left">
+      <h2 id="iam">Qui suis-je ?</h2>
+      <h3 id="student">Un simple étudiant passionné de développement</h3>
+      <p id="content">
+        Je m'appelle Rémi, j'ai 25 ans, je suis actuellement en formation de
+        développeur web chez Open Classrooms et je recherche une alternance pour
+        commnencer ma prochaine formation : Developpeur front-end JavaScript et
+        React.
       </p>
     </div>
-    <div class="about-image">mettre un image illustrative ici</div>
+    <div class="about-image slide-in-right">
+      mettre un image illustrative ici
+    </div>
   </section>
-  <section class="skillSection">
+  <section class="skillSection slide-in-left">
     <h2 class="skillTitle">Mes compétences</h2>
     <div class="skillLogos">
       <div class="logo">
@@ -76,12 +78,69 @@
       <div class="logo">
         <img src="../assets/Node.js.webp" alt="logo react" class="logoImage" />
       </div>
+
       <div class="logo">
         <img
           src="../assets/mongodb-logo.webp"
           alt="logo mongo"
           class="logoImage"
         />
+      </div>
+    </div>
+  </section>
+  <section class="latestProjectsSection slide-in-right">
+    <div class="projects">
+      <div class="project-image">
+        <img
+          src="../assets/projectPlaceholder.webp"
+          alt="project placeholder image"
+        />
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Project 1</h3>
+        <p class="project-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          praesentium, eos neque et quam iusto aliquid veritatis voluptas magni
+          odit, quisquam quo molestiae. Expedita labore laborum ipsa placeat
+          totam facilis eaque architecto. Unde, dignissimos. Quos odit atque
+          inventore explicabo impedit!
+        </p>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="project-content">
+        <h3 class="project-title">Project 1</h3>
+        <p class="project-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          praesentium, eos neque et quam iusto aliquid veritatis voluptas magni
+          odit, quisquam quo molestiae. Expedita labore laborum ipsa placeat
+          totam facilis eaque architecto. Unde, dignissimos. Quos odit atque
+          inventore explicabo impedit!
+        </p>
+      </div>
+      <div class="project-image">
+        <img
+          src="../assets/projectPlaceholder.webp"
+          alt="project placeholder image"
+        />
+      </div>
+    </div>
+    <div class="projects">
+      <div class="project-image">
+        <img
+          src="../assets/projectPlaceholder.webp"
+          alt="project placeholder image"
+        />
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Project 1</h3>
+        <p class="project-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          praesentium, eos neque et quam iusto aliquid veritatis voluptas magni
+          odit, quisquam quo molestiae. Expedita labore laborum ipsa placeat
+          totam facilis eaque architecto. Unde, dignissimos. Quos odit atque
+          inventore explicabo impedit!
+        </p>
       </div>
     </div>
   </section>
@@ -150,15 +209,45 @@ a {
 
 .aboutSection {
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: flex;
+  align-items: center;
   justify-content: center;
   & .about-text {
     width: 45%;
+    display: block;
   }
   & .about-image {
     width: 45%;
   }
+}
+#iam {
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#student {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#content {
+  font-size: 1em;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+
+.slide-in-left {
+  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-in-right {
+  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 // SKILLS SECTION
@@ -175,13 +264,13 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-color: rgba(128, 128, 128, 0.281);
 }
 
 .skillLogos {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: center;
   align-items: center;
   width: 45%;
@@ -196,6 +285,81 @@ a {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+}
+
+// LATEST PROJECTS SECTION
+
+.latestProjectsSection {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  margin: 10px;
+  overflow: hidden;
+  margin: 40px;
+  & .project-image {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  & .project-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .project-title {
+      margin: 0;
+      font-size: 2em;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+    }
+    & .project-text {
+      width: 70%;
+      font-size: 1em;
+      color: rgb(0, 0, 0);
+    }
+  }
+}
+
+// KEYFRAMES
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 </style>
