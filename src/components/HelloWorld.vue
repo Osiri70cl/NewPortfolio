@@ -165,4 +165,10 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.vueperslides {
+  width: 75%;
+  height: 100%;
+  margin: 50px auto;
+}
 </style>
