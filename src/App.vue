@@ -1,15 +1,19 @@
 <template>
-  <header>
-    <nav>
-      <router-link to="/">Accueil</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/projects">Projets</router-link> |
-      <router-link to="/contact">Contact</router-link> |
-    </nav>
-  </header>
+  <The_Header />
   <router-view />
-  <footer class="bg-black h-20 w-full text-white">testing footer</footer>
+  <The_Footer />
 </template>
+
+<script>
+// Utilisaton du header et du footer pour l'ensemble de l'app
+import The_Header from "./components/The_Header.vue";
+import The_Footer from "./components/The_Footer.vue";
+
+export default {
+  name: "App",
+  components: { The_Header, The_Footer },
+};
+</script>
 
 <style lang="scss">
 #app {
@@ -22,21 +26,6 @@
 
 * {
   box-sizing: border-box;
-}
-
-nav {
-  padding: 10px;
-  background-color: rgba(21, 21, 41, 0.555);
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    text-decoration: none;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 
 body {
