@@ -1,7 +1,5 @@
 <template>
-  <div class="landingSection">
-    <HelloWorld />
-  </div>
+  <HelloWorld />
 </template>
 
 <script>

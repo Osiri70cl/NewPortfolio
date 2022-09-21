@@ -1,12 +1,14 @@
 <template>
-  <nav>
-    <router-link to="/">Accueil</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/projects">Projets</router-link> |
-    <router-link to="/contact">Contact</router-link> |
-  </nav>
+  <header>
+    <nav>
+      <router-link to="/">Accueil</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/projects">Projets</router-link> |
+      <router-link to="/contact">Contact</router-link> |
+    </nav>
+  </header>
   <router-view />
-  <footer>testing footer</footer>
+  <footer class="bg-black h-20 w-full text-white">testing footer</footer>
 </template>
 
 <style lang="scss">
@@ -40,11 +42,5 @@ nav {
 body {
   margin: 0;
   padding: 0;
-}
-
-footer {
-  color: white;
-  background-color: rgba(21, 21, 41, 0.555);
-  position: fixed;
 }
 </style>

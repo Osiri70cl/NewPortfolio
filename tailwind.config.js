@@ -4,7 +4,20 @@ module.exports = {
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        128: "37.5rem",
+        138: "43.75rem",
+        26: "6.5rem",
+      },
+      colors: {
+        newGray: "#d1d1d1",
+      },
+      width: {
+        128: "45%",
+        26: "6.5rem",
+      },
+    },
   },
   variants: {
     extend: {},
