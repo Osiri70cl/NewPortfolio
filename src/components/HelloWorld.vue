@@ -14,21 +14,14 @@
         <h3 class="m-7 text-2xl text-black italic">
           Etudiant en Web developpement
         </h3>
-        <div>
-          <div class="flex justify-center items-center">
-            <p class="text-xl text-black italic">Faisons connaissance !</p>
-            <router-link to="/about" class="pl-3.5 hover:text-red-500">
-              About</router-link
-            >
-          </div>
-          <div class="flex justify-center items-center">
-            <p class="text-xl text-black italic">
-              Découvrez tous mes projets !
-            </p>
-            <router-link to="/projects" class="pl-3.5 hover:text-red-500">
-              Projects</router-link
-            >
-          </div>
+        <div class="flex justify-center items-center">
+          <a
+            href="#projects"
+            class="px-4 py-3 lg:px-5 lg:py-4 border-2 border-red bg-[length:140%] bg-red bg-[position:400%] hover:bg-[position:50%] hover:text-red hover:bg-white transition-all duration-500 lg:text-lg mt-16 left-1/2 -translate-x-1/2 rounded-3xl"
+            style="background-image: url('../images/9928.webp')"
+          >
+            Mes réalisations
+          </a>
         </div>
       </div>
     </section>
