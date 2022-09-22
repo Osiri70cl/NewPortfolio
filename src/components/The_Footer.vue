@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex items-center justify-center bg-black h-20 w-full text-white"
+    class="flex items-center justify-center bg-black h-20 w-full text-white relative z-10"
   >
     <a href="https://portfolio-remi.fr" class="m-3 hover:text-red-500"
       >© Rémi.P - Portfolio - Vuejs / Tailwind

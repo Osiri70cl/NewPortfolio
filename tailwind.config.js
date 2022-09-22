@@ -12,6 +12,10 @@ module.exports = {
       },
       colors: {
         newGray: "#d1d1d1",
+        red: "#ff0000",
+        white: "#ffffff",
+        darkBlue: "#2c3e50",
+        green: "#42b983",
       },
       width: {
         128: "45%",

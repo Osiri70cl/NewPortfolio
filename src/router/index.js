@@ -10,17 +10,22 @@ const routes = [
   {
     path: "/about",
     name: "about",
-    component: () => import("../views/AboutView.vue"),
+    component: () => import("../components/AboutView.vue"),
   },
   {
     path: "/projects",
     name: "projects",
-    component: () => import("../views/ProjectsView.vue"),
+    component: () => import("../components/ProjectsView.vue"),
   },
   {
     path: "/contact",
     name: "contact",
-    component: () => import("../views/ContactView.vue"),
+    component: () => import("../components/ContactView.vue"),
+  },
+  {
+    path: "/skills",
+    name: "skills",
+    component: () => import("../components/SkillsView.vue"),
   },
 ];
 
@@ -29,4 +34,8 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  document.title = to.name;
+  next();
+});
 export default router;
