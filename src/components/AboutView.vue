@@ -14,13 +14,58 @@
         commnencer ma prochaine formation : Developpeur front-end JavaScript et
         React.
       </p>
+      <article class="justify-center wrap">
+        <h3 class="m-7 text-3xl text-black font-bold italic">Mon CV</h3>
+        <div
+          v-for="(filesrc, index) in filesrcs"
+          :key="index"
+          class="cursor-pointer"
+        >
+          <div @click="downloadWithAxios(filesrc.src, filesrc.title)">
+            <p>{{ filesrc.title }}</p>
+          </div>
+        </div>
+      </article>
     </div>
     <div class="w-2/5">mettre un image illustrative ici</div>
   </section>
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: "AboutView",
+  data() {
+    return {
+      filesrcs: [
+        {
+          title: "9931.jpg",
+          src: require("../images/9931.jpg"),
+        },
+      ],
+    };
+  },
+  methods: {
+    forceFileDownload(response, title) {
+      console.log(title);
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", title);
+      document.body.appendChild(link);
+      link.click();
+    },
+    downloadWithAxios(url, title) {
+      axios({
+        method: "get",
+        url,
+        responseType: "arraybuffer",
+      })
+        .then((response) => {
+          this.forceFileDownload(response, title);
+        })
+        .catch(() => console.log("error occured"));
+    },
+  },
 };
 </script>
