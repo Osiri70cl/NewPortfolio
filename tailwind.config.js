@@ -10,6 +10,17 @@ module.exports = {
         138: "43.75rem",
         26: "6.5rem",
       },
+      screens: {
+        sm: "640px",
+
+        md: "750px",
+
+        lg: "950px",
+
+        xl: "1000px",
+
+        "2xl": "1536px",
+      },
       colors: {
         newGray: "#d1d1d1",
         lightGray: "#eeeeee",

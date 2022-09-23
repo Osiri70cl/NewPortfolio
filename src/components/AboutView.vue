@@ -1,7 +1,7 @@
 <template>
   <section
     id="about"
-    class="flex flex-wrap justify-center items-center w-full h-128 relative z-10 xl:min-h-screen bg-white"
+    class="flex flex-wrap flex-col xl:flex-row justify-center items-center w-full h-128 relative z-10 xl:min-h-screen bg-white"
   >
     <div class="block w-3/5 slide-in-left">
       <h2 class="m-7 text-5xl text-black font-bold">Qui suis-je ?</h2>
@@ -39,8 +39,8 @@ export default {
     return {
       filesrcs: [
         {
-          title: "9931.jpg",
-          src: require("../images/9931.jpg"),
+          title: "cv rémi.P",
+          src: require("../images/cvplaceholder.png"),
         },
       ],
     };

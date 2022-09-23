@@ -1,7 +1,7 @@
 <template>
   <section
     id="skills"
-    class="flex flex-wrap justify-center items-center w-full h-128 bg-newGray relative z-10 xl:min-h-screen"
+    class="flex flex-wrap flex-col xl:flex-row justify-center items-center w-full h-128 bg-newGray relative z-10 xl:min-h-screen"
   >
     <h2 class="my-12 w-1/2 text-5xl">Mes compétences</h2>
     <div class="grid grid-cols-3 justify-center items-center w-128 h-full">

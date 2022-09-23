@@ -2,7 +2,7 @@
   <div class="background">
     <section
       id="home"
-      class="flex flex-wrap pt-24 justify-center items-center h-screen w-full bg-white bg-opacity-50 backdrop-blur-3xl sticky top-0"
+      class="flex flex-wrap flex-col xl:flex-row pt-24 justify-center items-center h-screen w-full bg-white bg-opacity-50 backdrop-blur-3xl sticky top-0"
     >
       <img
         src="../assets/IMG_0652.webp"

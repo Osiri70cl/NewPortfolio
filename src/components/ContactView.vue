@@ -1,7 +1,7 @@
 <template>
   <section
     id="contact"
-    class="app-advanced p-10 relative z-10 xl:min-h-screen bg-newGray flex flex-row items-center justify-center"
+    class="app-advanced p-10 relative z-10 xl:min-h-screen bg-newGray flex flex-col xl:flex-row items-center justify-center"
   >
     <div class="basis-full lg:self-center">
       <h2
