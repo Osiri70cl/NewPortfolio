@@ -27,7 +27,13 @@
         </div>
       </article>
     </div>
-    <div class="w-2/5">mettre un image illustrative ici</div>
+    <div class="w-2/5">
+      <img
+        src="../images/paupy.jpg"
+        alt="photo des pyrénées"
+        class="w-3/4 h-full object-contain border-2 border-black"
+      />
+    </div>
   </section>
 </template>
 
