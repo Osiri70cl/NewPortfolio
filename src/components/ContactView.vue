@@ -3,18 +3,19 @@
     id="contact"
     class="app-advanced p-10 relative z-10 xl:min-h-screen bg-newGray flex flex-col xl:flex-row items-center justify-center"
   >
-    <div class="basis-full lg:self-center">
+    <div class="basis-full md:self-center mt-16">
       <h2
-        class="inline-block font-display font-bold text-brand lg:text-xl uppercase mb-4"
+        class="inline-block font-display text-brand border-b-4 p-1 font-bold text-3xl md:text-5xl uppercase mb-4"
       >
         Contact
       </h2>
-      <h3 class="font-display font-bold text-4xl lg:text-5xl mb-8">
+      <h3 class="font-display text-2xl md:text-4xl mb-8">
         Mon portfolio vous plait ?
       </h3>
       <p class="text-neutrals-50/60 leading-relaxed max-w-prose mb-12">
-        N'hesitez pas à me contacter pour plus d'informations ou pour discuter !
-        Vous trouverez également mes réseaux en bas de page.
+        N'hesitez pas à me contacter pour plus d'informations ou pour me
+        proposer une alternance ! Vous trouverez également mes réseaux en bas de
+        page.
       </p>
       <a
         class="text-neutrals-50 leading-relaxed max-w-prose mb-14 hover:text-brand transition-colors cursor-pointer inline-block"
@@ -34,7 +35,9 @@
         remi.pince@outlook.com</a
       >
     </div>
-    <div class="w-1/2 flex flex-col justify-center items-center">
+    <div
+      class="w-full md:w-2/5 md:ml-20 flex flex-col justify-center items-center"
+    >
       <svg
         style="color: white"
         xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +55,7 @@
         @submit="handleSubmit"
         method="POST"
         target="_blank"
-        class="w-1/2 mx-auto mt-5"
+        class="w-full mx-auto mt-5"
       >
         <label for="form-name" class="block mb-2 text-sm uppercase"
           >Nom Prénom</label
@@ -60,7 +63,7 @@
         <div class="mb-3 pt-0">
           <input
             type="text"
-            placeholder="Your name"
+            placeholder="Nom Prénom"
             name="name"
             class="bg-neutrals-700 border-[1.5px] border-neutrals-500 rounded-md block w-full pr-10 p-2.5 focus:ring-none focus:border-brand focus:outline-none"
             required
@@ -83,7 +86,7 @@
         >
         <div class="mb-3 pt-0">
           <textarea
-            placeholder="Your message"
+            placeholder="Votre message"
             name="message"
             class="bg-neutrals-700 border-[1.5px] border-neutrals-500 rounded-md block w-full pr-10 p-2.5 focus:ring-none focus:border-brand focus:outline-none"
             required
@@ -95,7 +98,7 @@
             class="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
             type="submit"
           >
-            Send a message
+            Envoyer
           </button>
         </div>
       </form>

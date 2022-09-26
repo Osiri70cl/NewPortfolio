@@ -28,9 +28,4 @@ export default {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-}
 </style>

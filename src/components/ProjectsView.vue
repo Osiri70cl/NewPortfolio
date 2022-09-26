@@ -1,12 +1,14 @@
 <template>
   <section
     id="projects"
-    class="w-full h-full flex flex-col flex-wrap items-center justify-center relative z-10 xl:min-h-screen bg-white"
+    class="w-full h-full flex flex-col flex-wrap items-center justify-center relative z-10 min-h-screen bg-white"
   >
-    <div>
-      <div class="mx-auto flex max-w-7xl flex-col space-y-12 px-8 xl:px-12">
-        <h2 class="m-7 text-5xl">Mes différents projets</h2>
-        <h3 class="m-7 text-5xl">Projets personnel</h3>
+    <div class="w-full mt-16">
+      <div class="mx-auto flex max-w-7xl flex-col space-y-12 px-2 xl:px-12">
+        <h2 class="m-7 border-b-4 p-1 font-bold text-3xl md:text-5xl">
+          Mes différents projets
+        </h2>
+        <h3 class="m-7 text-3xl font-bold md:text-4xl">Projets personnel</h3>
         <div class="">
           <div class="mb-8 flex flex-col sm:flex-row">
             <a
@@ -117,7 +119,9 @@
             </div>
           </div>
         </div>
-        <h3 class="m-7 text-5xl">Projets OpenClassrooms</h3>
+        <h3 class="m-7 font-bold text-2xl xl:text-5xl">
+          Projets OpenClassrooms
+        </h3>
         <div class="">
           <div class="mb-8 flex flex-col sm:flex-row">
             <a
@@ -224,7 +228,7 @@
               <p class="text mt-5 text-lg md:text-left">
                 Dans ce projet, je devais créer une API sécurisée pour un site
                 de vente de sauces piquantes. (le code frontend nous ayant été
-                fournis) <br />
+                fourni) <br />
                 Il fallait implementer les fonctionnalités suivantes : <br />
                 - Création d'un compte utilisateur <br />
                 - Connexion à un compte utilisateur <br />
@@ -294,13 +298,6 @@
         </div>
       </div>
     </div>
-    <!-- 
-
-    <p class="m-7 text-base text-black italic w-1/2">
-      Pour avoir accès aux projets, à leur explications ainsi qu'à leur code
-      source, n'hésitez pas à cliquer sur les images ou alors sur l'onglet
-      "Projets" dans le menu.
-    </p> -->
   </section>
 </template>
 
