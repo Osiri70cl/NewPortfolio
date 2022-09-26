@@ -19,7 +19,7 @@ module.exports = {
 
         xl: "1000px",
 
-        "2xl": "1536px",
+        "2xl": "1280px",
       },
       colors: {
         newGray: "#d1d1d1",

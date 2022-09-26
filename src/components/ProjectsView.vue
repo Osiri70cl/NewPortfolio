@@ -3,9 +3,11 @@
     id="projects"
     class="w-full h-full flex flex-col flex-wrap items-center justify-center relative z-10 min-h-screen bg-white"
   >
-    <div class="w-full mt-16">
+    <div class="w-full">
       <div class="mx-auto flex max-w-7xl flex-col space-y-12 px-2 xl:px-12">
-        <h2 class="m-7 border-b-4 p-1 font-bold text-3xl md:text-5xl">
+        <h2
+          class="m-7 border-b-4 p-1 font-bold text-3xl md:text-5xl md:border-b-0"
+        >
           Mes différents projets
         </h2>
         <h3 class="m-7 text-3xl font-bold md:text-4xl">Projets personnel</h3>
@@ -22,13 +24,13 @@
                 height="300"
                 alt="meteo"
                 loading="lazy"
-                class="rounded-lg shadow-xl hover:skew-y-3 hover:scale-110 hover:shadow-2xl"
+                class="rounded-lg justify-center shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl"
               />
             </a>
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex">
+              <div class="mb-2 flex mb:justify-center">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
@@ -67,20 +69,20 @@
             <a
               href="https://github.com/Osiri70cl/sitePinsou"
               target="”_blank”"
-              class="mb-8 flex items-center sm:w-1/2 md:w-5/12 cursor-pointer"
+              class="mb-8 flex items-center justify-center sm:w-1/2 md:w-5/12 cursor-pointer"
             >
               <img
                 src="../images/siteFamille.jpg"
-                width="400"
+                width="300"
                 alt="montagnes"
                 loading="lazy"
-                class="rounded-lg shadow-xl hover:skew-y-3 hover:scale-110 hover:shadow-2xl object-contain"
+                class="rounded-lg justify-center shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl object-contain"
               />
             </a>
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex">
+              <div class="mb-2 flex mb:justify-center">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   En cours...
                 </p>
@@ -127,7 +129,7 @@
             <a
               href="https://github.com/Osiri70cl/Groupomania-p7-OC"
               target="”_blank”"
-              class="sm:order-last mb-8 flex items-center sm:w-1/2 md:w-5/12"
+              class="sm:order-last mb-8 flex justify-center items-center sm:w-1/2 md:w-5/12"
             >
               <img
                 src="../images/icon-left-font.png"
@@ -135,13 +137,13 @@
                 height="300"
                 alt="Logo groupomania"
                 loading="lazy"
-                class="rounded-lg shadow-xl hover:skew-y-3 hover:scale-110 hover:shadow-2xl cursor-pointer"
+                class="rounded-lg justify-center shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl cursor-pointer"
               />
             </a>
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex">
+              <div class="mb-2 flex mb:justify-center">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
@@ -187,21 +189,21 @@
             <a
               href="https://github.com/Osiri70cl/Piiquante"
               target="”_blank”"
-              class="sm:order-last mb-8 flex items-center sm:w-1/2 md:w-5/12"
+              class="sm:order-last mb-8 flex items-center justify-center sm:w-1/2 md:w-5/12"
             >
               <img
                 src="../images/piiquantelogo.webp"
-                width="400"
-                height="400"
+                width="300"
+                height="300"
                 alt="piiquante"
                 loading="lazy"
-                class="rounded-lg shadow-xl hover:skew-y-3 hover:scale-110 hover:shadow-2xl cursor-pointer"
+                class="rounded-lg shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl cursor-pointer"
               />
             </a>
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex">
+              <div class="mb-2 flex mb:justify-center">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
@@ -246,7 +248,7 @@
             <a
               href="https://github.com/Osiri70cl/Kanap"
               target="”_blank”"
-              class="sm:order-last mb-8 flex items-center sm:w-1/2 md:w-5/12"
+              class="sm:order-last mb-8 flex justify-center items-center sm:w-1/2 md:w-5/12"
             >
               <img
                 src="../images/logokanap.webp"
@@ -254,13 +256,13 @@
                 height="300"
                 alt="kanap logo"
                 loading="lazy"
-                class="rounded-lg shadow-xl hover:skew-y-3 hover:scale-110 hover:shadow-2xl cursor-pointer"
+                class="rounded-lg shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl cursor-pointer"
               />
             </a>
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex">
+              <div class="mb-2 flex mb:justify-center">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>

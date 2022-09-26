@@ -1,11 +1,11 @@
 <template>
   <section
     id="contact"
-    class="app-advanced p-10 relative z-10 xl:min-h-screen bg-newGray flex flex-col xl:flex-row items-center justify-center"
+    class="app-advanced p-10 relative z-10 md:min-h-screen bg-newGray flex flex-col xl:flex-row items-center justify-center"
   >
     <div class="basis-full md:self-center mt-16">
       <h2
-        class="inline-block font-display text-brand border-b-4 p-1 font-bold text-3xl md:text-5xl uppercase mb-4"
+        class="inline-block font-display text-brand border-b-4 p-1 font-bold text-3xl md:text-5xl uppercase mb-4 md:border-b-0"
       >
         Contact
       </h2>
@@ -36,7 +36,7 @@
       >
     </div>
     <div
-      class="w-full md:w-2/5 md:ml-20 flex flex-col justify-center items-center"
+      class="w-full md:w-2/5 2xl:ml-20 flex flex-col justify-center items-center"
     >
       <svg
         style="color: white"

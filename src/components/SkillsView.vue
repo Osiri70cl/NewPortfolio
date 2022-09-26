@@ -1,15 +1,15 @@
 <template>
   <section
     id="skills"
-    class="flex flex-col md:flex-row justify-center items-center w-full h-128 bg-newGray relative z-10 min-h-screen"
+    class="flex flex-col md:flex-row justify-center items-center w-full h-full bg-newGray relative z-10 min-h-screen"
   >
     <h2
-      class="my-12 p-1 border-b-4 font-bold md:p-0 md:w-1/2 w-3/4 text-3xl md:text-5xl mt-16"
+      class="my-12 border-b-4 font-bold md:p-0 md:w-1/2 w-3/4 text-3xl md:border-b-0 md:text-5xl p-1"
     >
       Mes compétences
     </h2>
     <div
-      class="grid md:grid-cols-3 grid-cols-2 justify-center items-center md:w-128 h-full"
+      class="grid md:grid-cols-3 md:gap-10 grid-cols-2 justify-center items-center md:w-128 h-full"
     >
       <a
         href="https://developer.mozilla.org/en-US/docs/Web/HTML"

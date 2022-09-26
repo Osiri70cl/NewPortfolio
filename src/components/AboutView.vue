@@ -1,10 +1,12 @@
 <template>
   <section
     id="about"
-    class="flex flex-wrap flex-col xl:flex-row justify-center items-center w-full h-128 relative z-10 min-h-screen bg-white"
+    class="flex flex-col xl:flex-row justify-center items-center w-full h-128 relative z-10 min-h-screen bg-white"
   >
-    <div class="block md:w-3/5 w-full mt-5">
-      <h2 class="m-7 text-4xl md:text-5xl border-b-4 p-1 font-bold">
+    <div class="block md:w-3/5 w-full mt-16">
+      <h2
+        class="m-7 text-4xl md:text-5xl border-b-4 md:border-b-0 p-1 font-bold"
+      >
         Qui suis-je ?
       </h2>
       <h3 class="m-7 text-2xl md:text-4xl italic">
@@ -38,7 +40,7 @@
       <img
         src="../images/paupy.jpg"
         alt="photo des pyrénées"
-        class="w-3/4 h-full object-contain border-2 border-black"
+        class="w-full h-full object-contain border-2 border-black"
       />
     </div>
   </section>

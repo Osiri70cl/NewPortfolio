@@ -1,13 +1,13 @@
 <template>
-  <div class="background">
+  <div class="background md:sticky md:w-full">
     <section
       id="home"
-      class="flex flex-wrap flex-col xl:flex-row pt-24 justify-center items-center h-screen w-full bg-white bg-opacity-50 backdrop-blur-3xl sticky top-0"
+      class="flex flex-wrap flex-col pt-24 justify-center items-center h-screen w-full bg-white bg-opacity-50 md:sticky md:top-0"
     >
       <img
         src="../assets/IMG_0652.webp"
         alt="image Rémi"
-        class="m-6 w-64 h-64 rounded-full shadow-lg"
+        class="m-6 md:w-64 w-20 md:h-64 h-20 rounded-full shadow-lg"
       />
       <div class="m-6">
         <h2 class="my-0 w-full text-5xl">Bonjour, Je suis Rémi.P</h2>
@@ -18,7 +18,6 @@
           <a
             href="#projects"
             class="px-4 py-3 lg:px-5 lg:py-4 border-2 border-red bg-[length:140%] bg-red bg-[position:400%] hover:bg-[position:50%] hover:text-red hover:bg-white transition-all duration-500 lg:text-lg mt-16 left-1/2 -translate-x-1/2 rounded-3xl"
-            style="background-image: url('../images/9928.webp')"
           >
             Mes réalisations
           </a>
@@ -61,7 +60,6 @@ a {
 }
 
 .background {
-  position: sticky;
   top: 0;
   background-image: url("../assets/4.webp");
   background-size: cover;
