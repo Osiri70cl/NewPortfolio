@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="w-full h-full flex flex-col flex-wrap items-center justify-center relative z-10 min-h-screen bg-white"
+    class="w-full p-4 h-full flex flex-col flex-wrap items-center justify-center relative z-10 min-h-screen bg-white"
   >
     <div class="w-full">
       <div class="mx-auto flex max-w-7xl flex-col space-y-12 px-2 xl:px-12">
@@ -30,7 +30,7 @@
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex mb:justify-center">
+              <div class="mb-2 flex justify-center md:justify-start">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
@@ -82,7 +82,7 @@
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex mb:justify-center">
+              <div class="mb-2 flex justify-center md:justify-start">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   En cours...
                 </p>
@@ -143,7 +143,7 @@
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex mb:justify-center">
+              <div class="mb-2 flex justify-center md:justify-start">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
@@ -203,7 +203,7 @@
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex mb:justify-center">
+              <div class="mb-2 flex justify-center md:justify-start">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
@@ -262,7 +262,7 @@
             <div
               class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
             >
-              <div class="mb-2 flex mb:justify-center">
+              <div class="mb-2 flex justify-center md:justify-start">
                 <p class="text-sm font-semibold uppercase text-secondary">
                   Fait avec
                 </p>
