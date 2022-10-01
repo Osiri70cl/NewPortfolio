@@ -6,7 +6,7 @@
       >
         <div class="flex items-center justify-between">
           <a
-            class="text-m text-darkBlue focus:text-green md:text-m uppercase py-5 hover:underline focus:underline"
+            class="text-m text-gray-800 font-bold md:text-m uppercase py-5 hover:underline focus:underline"
             href="#"
             >Rémi.P</a
           >
@@ -33,28 +33,28 @@
         >
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <a
-              class="text-m text-darkBlue active:text-green md:text-m uppercase py-5 hover:underline focus:underline"
+              class="text-m text-darkBlue md:text-m uppercase py-5 hover:underline focus:underline"
               href="/#about"
               >About</a
             >
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <a
-              class="text-m text-darkBlue focus:text-green md:text-m uppercase py-5 hover:underline focus:underline"
+              class="text-m text-darkBlue md:text-m uppercase py-5 hover:underline focus:underline"
               href="/#skills"
               >Skills</a
             >
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <a
-              class="text-m text-darkBlue focus:text-green md:text-m uppercase py-5 hover:underline focus:underline"
+              class="text-m text-darkBlue md:text-m uppercase py-5 hover:underline focus:underline"
               href="/#projects"
               >Projects</a
             >
           </li>
           <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
             <a
-              class="text-m text-darkBlue focus:text-green md:text-m uppercase py-5 hover:underline focus:underline"
+              class="text-m text-darkBlue md:text-m uppercase py-5 hover:underline focus:underline"
               href="/#contact"
               >Contact</a
             >
