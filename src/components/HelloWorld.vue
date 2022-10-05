@@ -1,8 +1,8 @@
 <template>
-  <div class="background lg:sticky lg:w-full">
+  <div class="background xl:sticky xl:w-full">
     <section
       id="home"
-      class="flex flex-wrap flex-col pt-24 justify-center items-center h-screen w-full bg-white bg-opacity-50 lg:sticky lg:top-0"
+      class="flex flex-wrap flex-col pt-24 justify-center items-center h-screen w-full bg-white bg-opacity-50 xl:sticky xl:top-0"
     >
       <img
         src="../assets/IMG_0652.webp"
