@@ -26,7 +26,7 @@
       <article class="justify-center wrap">
         <h3 class="m-7 text-2xl md:text-3xl font-bold italic">Mon CV</h3>
         <a
-          href="https://github.com/Osiri70cl/RemiP/blob/main/CV-R%C3%A9miP.pdf"
+          href="https://github.com/Osiri70cl/RemiP/blob/main/R%C3%A9mi-CV-V2.pdf"
           rel="noopener noreferrer"
           target="_blank"
         >
