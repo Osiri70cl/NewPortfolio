@@ -1,24 +1,12 @@
-# portfoliov3
+# NewPortfolio - Portfolio-rémi
 
-## Project setup
-```
-npm install
-```
+## Quel est ce repository ? 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Vous trouverez dans ce repository tout le code source de mon site personnel. 
+Il se sépare en 3 partie distincte, les fichiers config (tailwind.config.js, jsconfig.json,...) un dossier public contenant le fichier html, et un fichier src contenant tous les fichier vuejs. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Quelles sont les technologies utilisées ? 
 
-### Lints and fixes files
-```
-npm run lint
-```
+Ce projet a été créé avec le framework Vuejs, on y trouveégalement du TailwindCSS, framework de CSS. 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## N'hésitez pas à vous rendre sur portfolio-remi.fr pour voir le produit fini.
