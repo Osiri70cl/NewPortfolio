@@ -62,7 +62,7 @@
       >
         <img
           src="../assets/Node.js.webp"
-          alt="logo react"
+          alt="logo nodejs"
           class="w-full h-full object-contain"
         />
       </a>
@@ -85,7 +85,18 @@
       >
         <img
           src="../assets/logo.png"
-          alt="logo mongo"
+          alt="logo vue"
+          class="w-full h-full object-contain"
+        />
+      </a>
+      <a
+        href="https://reactjs.org/"
+        target="_blank"
+        class="w-26 h-26 m-2.5 hover:cursor-pointer"
+      >
+        <img
+          src="../assets/React.png"
+          alt="logo React"
           class="w-full h-full object-contain"
         />
       </a>
@@ -96,7 +107,7 @@
       >
         <img
           src="../assets/mysql.png"
-          alt="logo mongo"
+          alt="logo mysql"
           class="w-full h-full object-contain"
         />
       </a>
@@ -107,7 +118,7 @@
       >
         <img
           src="../assets/tailwind.png"
-          alt="logo mongo"
+          alt="logo tailwind"
           class="w-full h-full object-contain"
         />
       </a>
