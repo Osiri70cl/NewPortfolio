@@ -14,9 +14,10 @@
       </h3>
       <p class="m-7 md:m-auto text-base italic md:w-1/2">
         Je m'appelle Rémi, j'ai 25 ans, titulaire d'un bachelor d'école de
-        commerce, je suis actuellement en formation de développeur web che
-        OpenClassrooms. Je recherche une alternance pour commencer ma prochaine
-        formation : Developpeur frontend JavaScript et React.
+        commerce option Marketing (Webmarketing), je suis actuellement en
+        formation de développeur web chez OpenClassrooms. Je recherche une
+        alternance pour commencer ma prochaine formation : Developpeur frontend
+        JavaScript et React.
       </p>
       <p class="m-7 md:m-auto text-base italic md:w-1/2">
         Ayant toujours été passionné par l'informatique, j'ai décidé de me
@@ -26,7 +27,7 @@
       <article class="justify-center wrap">
         <h3 class="m-7 text-2xl md:text-3xl font-bold italic">Mon CV</h3>
         <a
-          href="https://github.com/Osiri70cl/RemiP/blob/main/R%C3%A9mi-CV-V2.pdf"
+          href="https://github.com/Osiri70cl/RemiP/blob/main/R%C3%A9mi.pdf"
           rel="noopener noreferrer"
           target="_blank"
         >
