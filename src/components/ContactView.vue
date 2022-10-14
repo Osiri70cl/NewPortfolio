@@ -20,7 +20,7 @@
       <a
         class="text-neutrals-50 leading-relaxed max-w-prose mb-14 hover:text-brand transition-colors cursor-pointer inline-block"
         href="mailto:remi.pince@outlook.com"
-        title="Hit me up"
+        title="envoyer un mail"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

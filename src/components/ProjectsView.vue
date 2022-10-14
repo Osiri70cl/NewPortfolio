@@ -68,6 +68,71 @@
         <div class="">
           <div class="mb-8 flex flex-col sm:flex-row">
             <a
+              href="https://github.com/Osiri70cl/SiteFamille"
+              target="”_blank”"
+              class="mb-8 flex items-center justify-center sm:w-1/2 md:w-5/12 cursor-pointer"
+            >
+              <img
+                src="../images/siteFamille.jpg"
+                width="300"
+                alt="montagnes"
+                loading="lazy"
+                class="rounded-lg justify-center shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl object-contain"
+              />
+            </a>
+            <div
+              class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
+            >
+              <div class="mb-2 flex justify-center md:justify-start">
+                <p class="text-sm font-semibold uppercase text-secondary">
+                  En cours...
+                </p>
+                <svg
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                  width="1.2em"
+                  height="1.2em"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m9 18l6-6l-6-6"
+                  ></path>
+                </svg>
+                <p class="text-sm font-semibold uppercase">
+                  React・SASS・Nodejs・MySQL
+                </p>
+              </div>
+              <h3 class="mt-2 text-2xl sm:text-left md:text-4xl">
+                Site de famille
+              </h3>
+              <p class="text mt-5 text-lg md:text-left">
+                Nous voulions mettre en commun et partager nos recettes
+                culinaires, des randonnées et des photos.
+                <br />
+                Mon idée est de développer un site web qui sera un album de
+                famille intéractif mais aussi qui me permettra de tester des
+                idées ou des techniques de programmation que je pourrais ensuite
+                exporter dans ma vie professionnelle. <br />
+                Il sera géré par connection sécurisée et création de profil
+                utilisateur. <br />
+                Ce site sera accès sur 3 axes majeurs : <br />
+                - Les randonnées : en montagnes, ou des boucles plus simples en
+                campagne<br />
+                - Les recettes de cuisine avec possibilité de commentaires,
+                conseil pratiques<br />
+                - Les photos artistiques ou que l'on veut partager comme des
+                évènements familiaux marquants<br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="mb-8 flex flex-col sm:flex-row">
+            <a
               href="https://github.com/Osiri70cl/appMeteo"
               target="”_blank”"
               class="mb-8 flex items-center justify-center sm:w-1/2 md:w-5/12 cursor-pointer"
@@ -162,71 +227,6 @@
               <p class="text mt-5 text-lg md:text-left">
                 Projet visant à créer un calendrier en JS à l'aide des methods.
                 <br />
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <div class="mb-8 flex flex-col sm:flex-row">
-            <a
-              href="https://github.com/Osiri70cl/sitePinsou"
-              target="”_blank”"
-              class="mb-8 flex items-center justify-center sm:w-1/2 md:w-5/12 cursor-pointer"
-            >
-              <img
-                src="../images/siteFamille.jpg"
-                width="300"
-                alt="montagnes"
-                loading="lazy"
-                class="rounded-lg justify-center shadow-xl md:hover:skew-y-3 md:hover:scale-110 md:hover:shadow-2xl object-contain"
-              />
-            </a>
-            <div
-              class="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-7/12"
-            >
-              <div class="mb-2 flex justify-center md:justify-start">
-                <p class="text-sm font-semibold uppercase text-secondary">
-                  En cours...
-                </p>
-                <svg
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24"
-                  width="1.2em"
-                  height="1.2em"
-                >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="m9 18l6-6l-6-6"
-                  ></path>
-                </svg>
-                <p class="text-sm font-semibold uppercase">
-                  Vuejs・Tailwindcss・Nodejs・MySQL
-                </p>
-              </div>
-              <h3 class="mt-2 text-2xl sm:text-left md:text-4xl">
-                Site de famille
-              </h3>
-              <p class="text mt-5 text-lg md:text-left">
-                Nous voulions mettre en commun et partager nos recettes
-                culinaires, des randonnées et des photos.
-                <br />
-                Mon idée est de développer un site web qui sera un album de
-                famille intéractif mais aussi qui me permettra de tester des
-                idées ou des techniques de programmation que je pourrais ensuite
-                exporter dans ma vie professionnelle. <br />
-                Il sera géré par connection sécurisée et création de profil
-                utilisateur. <br />
-                Ce site sera accès sur 3 axes majeurs : <br />
-                - Les randonnées : en montagnes, ou des boucles plus simples en
-                campagne<br />
-                - Les recettes de cuisine avec possibilité de commentaires,
-                conseil pratiques<br />
-                - Les photos artistiques ou que l'on veut partager comme des
-                évènements familiaux marquants<br />
               </p>
             </div>
           </div>
